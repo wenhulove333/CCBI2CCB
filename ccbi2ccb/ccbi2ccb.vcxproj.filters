@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\ccbianalyzer">
+      <UniqueIdentifier>{d54e78df-5ee4-46df-9bd8-9bed06b259b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ccbianalyzer">
+      <UniqueIdentifier>{c621fc77-1bfa-4a81-8d2e-f638df482448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\util">
+      <UniqueIdentifier>{57f7abf0-6ecb-42c5-8030-6ce93cff3920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\util\log">
+      <UniqueIdentifier>{5ff20c8e-e46b-4dc9-b39c-93bb0e3db672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\util\include">
+      <UniqueIdentifier>{b1eaf51e-1c9c-4182-9b8c-b60c5ff347f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\util">
+      <UniqueIdentifier>{9b500761-c8ae-4709-a79f-336b1ec1bea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\util\log">
+      <UniqueIdentifier>{377cd46f-c5aa-4335-84d9-cc74301f3ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\app">
+      <UniqueIdentifier>{af0cc34d-4d77-4ee2-9f3b-8a3dc29fe8d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="util\log\ssLog.h">
+      <Filter>头文件\util\log</Filter>
+    </ClInclude>
+    <ClInclude Include="util\include\ssMacro.h">
+      <Filter>头文件\util\include</Filter>
+    </ClInclude>
+    <ClInclude Include="ccbanalyzer\CBIReader.h">
+      <Filter>头文件\ccbianalyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="ccbanalyzer\ccbimapping.h">
+      <Filter>头文件\ccbianalyzer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="util\log\ssLog.cpp">
+      <Filter>源文件\util\log</Filter>
+    </ClCompile>
+    <ClCompile Include="ccbanalyzer\CBIReader.cpp">
+      <Filter>源文件\ccbianalyzer</Filter>
+    </ClCompile>
+    <ClCompile Include="app\main.cpp">
+      <Filter>源文件\app</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
