@@ -4,3 +4,5 @@ Can analyze other people's games' animation (compiled animation file which suffi
 Only test for collabration
 
 another collabration -- push access for this repository
+
+continue to test
